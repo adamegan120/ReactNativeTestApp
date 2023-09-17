@@ -5,16 +5,22 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "lint": "eslint .",
+    "lint": "eslint --fix --fix-type problem .",
     "start": "react-native start",
     "doctor": "react-native doctor",
     "test": "jest"
   },
   "dependencies": {
     "@react-native-community/cli-doctor": "^11.3.6",
+    "@react-navigation/core": "^6.4.9",
+    "@react-navigation/native": "^6.1.7",
     "react": "18.2.0",
     "react-native": "0.72.3",
-    "react-native-vector-icons": "^10.0.0"
+    "react-native-google-places-autocomplete": "^2.5.1",
+    "react-native-maps": "^1.7.1",
+    "react-native-maps-directions": "^1.9.0",
+    "react-native-vector-icons": "^10.0.0",
+    "react-navigation": "^4.4.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -24,12 +30,16 @@
     "@react-native/metro-config": "^0.72.9",
     "@tsconfig/react-native": "^3.0.0",
     "@types/react": "^18.0.24",
+    "@types/react-native-vector-icons": "^6.4.13",
+    "@types/react-navigation": "^3.4.0",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.2.1",
-    "eslint": "^8.19.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
     "jest": "^29.2.1",
     "metro-react-native-babel-preset": "0.76.7",
-    "prettier": "^2.4.1",
+    "prettier": "latest",
     "react-test-renderer": "18.2.0",
     "typescript": "4.8.4"
   },
